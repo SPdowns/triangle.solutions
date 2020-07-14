@@ -24,6 +24,10 @@ namespace Triangle
 
     public bool IsEquilateral()
     {
+      if (SideOne == SideTwo && SideOne == SideThree)
+      {
+        return true;
+      }
       return false;
     }
   }
