@@ -33,6 +33,10 @@ namespace Triangle
 
     public bool IsIsosceles()
     {
+      if ((SideOne == SideTwo || SideTwo == SideThree || SideThree == SideOne) && IsEquilateral() == false)
+      {
+        return true;
+      }
       return false;
     }
   }
