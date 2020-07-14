@@ -10,7 +10,7 @@ namespace Triangle.Tests
     public void Triangle_CanInputThreeSides_True()
     {
       Triangle testTriangle = new Triangle(3, 4, 5);
-      Assert.AreEqual(true, Triangle.SideOne == 3);
+      Assert.AreEqual(true, testTriangle.SideOne == 3);
     }
   }
 }
