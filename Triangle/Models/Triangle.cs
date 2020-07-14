@@ -40,9 +40,9 @@ namespace Triangle
       return false;
     }
 
-    public void TriangleType()
+    public string TriangleType()
     {
-
+      return "invalid";
     }
   }
 }
