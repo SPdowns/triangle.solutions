@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ProjectGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </ProjectGroup>
+
+</Project>
