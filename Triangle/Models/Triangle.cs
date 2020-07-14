@@ -1,3 +1,5 @@
+using System;
+
 namespace TriangleTracker.Shape
 {
   public class Triangle
@@ -54,6 +56,17 @@ namespace TriangleTracker.Shape
         return "isosceles";
       }
       return "scalene";
+    }
+
+    public int Perimeter()
+    {
+      return SideOne + SideTwo + SideThree;
+    }
+
+    public double Area()
+    {
+      double p = Perimeter()/2F;
+      return Math.Sqrt(p * (p-SideOne) * (p-SideTwo) * (p-SideThree));
     }
   }
 }

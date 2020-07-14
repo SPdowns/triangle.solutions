@@ -19,7 +19,13 @@ namespace TriangleTracker.Main
       int sideThree = int.Parse(stringSideThree);
 
       Triangle userTriangle = new Triangle(sideOne, sideTwo, sideThree);
-      Console.WriteLine("Your Triangle is " + userTriangle.TriangleType());
+      string triangleType = userTriangle.TriangleType();
+      Console.WriteLine("Your Triangle is " + triangleType);
+      if (triangleType != 'invalid')
+      {
+        Console.WriteLine("Your triangle has a perimeter of " + userTriangle.Perimeter().ToString());
+        Console.WriteLine("Your triangle has an area of " + userTriangle.Area().ToString());
+      }
     }
   }
 }
