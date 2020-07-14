@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TriangleTracker.Tracker;
+using TriangleTracker.Shape;
 
-namespace Triangle.Tests
+namespace TriangleTracker.Tests
 {
   [TestClass]
   public class TriangleTests

@@ -1,4 +1,4 @@
-namespace TriangleTracker.Triangle
+namespace TriangleTracker.Shape
 {
   public class Triangle
   {

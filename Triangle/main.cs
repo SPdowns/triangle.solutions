@@ -1,9 +1,9 @@
 using System;
-using TriangleTracker.Triangle;
+using TriangleTracker.Shape;
 
-namespace TriangleMain
+namespace TriangleTracker.Main
 {
-  public class TriangleTracker
+  public class TriangleUI
   {
     public static void Main()
     {
