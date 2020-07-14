@@ -31,9 +31,9 @@ namespace Triangle
       return false;
     }
 
-    public void IsIsosceles()
+    public bool IsIsosceles()
     {
-
+      return false;
     }
   }
 }
