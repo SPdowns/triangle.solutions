@@ -15,6 +15,10 @@ namespace Triangle
 
     public bool IsValid()
     {
+      if (SideOne + SideTwo <= SideThree || SideOne + SideThree <= SideTwo || SideTwo + SideThree <= SideOne)
+      {
+        return false;
+      }
       return true;
     }
   }
