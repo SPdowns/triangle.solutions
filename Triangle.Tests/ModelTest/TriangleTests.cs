@@ -63,5 +63,12 @@ namespace Triangle.Tests
       Triangle testTriangle = new Triangle(1, 2, 9);
       Assert.AreEqual("invalid", testTriangle.TriangleType());
     }
+
+    [TestMethod]
+    public void TriangleType_CheckIfTriangleIsEquilateral_Equilateral()
+    {
+      Triangle testTriangle = new Triangle(3, 3, 3);
+      Assert.AreEqual("equilateral", testTriangle.TriangleType());
+    }
   }
 }
