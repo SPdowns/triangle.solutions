@@ -53,7 +53,7 @@ namespace Triangle
       if (IsIsosceles()) {
         return "isosceles";
       }
-      return "bla bla";
+      return "scalene";
     }
   }
 }
