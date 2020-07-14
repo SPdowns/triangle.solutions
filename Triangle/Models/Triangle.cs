@@ -22,9 +22,9 @@ namespace Triangle
       return true;
     }
 
-    public void IsEquilateral()
+    public bool IsEquilateral()
     {
-      
+      return false;
     }
   }
 }
