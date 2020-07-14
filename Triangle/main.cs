@@ -21,7 +21,7 @@ namespace TriangleTracker.Main
       Triangle userTriangle = new Triangle(sideOne, sideTwo, sideThree);
       string triangleType = userTriangle.TriangleType();
       Console.WriteLine("Your Triangle is " + triangleType);
-      if (triangleType != 'invalid')
+      if (triangleType != "invalid")
       {
         Console.WriteLine("Your triangle has a perimeter of " + userTriangle.Perimeter().ToString());
         Console.WriteLine("Your triangle has an area of " + userTriangle.Area().ToString());
