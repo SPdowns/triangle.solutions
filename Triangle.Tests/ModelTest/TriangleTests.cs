@@ -1,4 +1,4 @@
-using Microsoft.VisualBasic.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Triangle;
 
 namespace Triangle.Tests
@@ -7,6 +7,10 @@ namespace Triangle.Tests
   public class TriangleTests
   {
     [TestMethod]
-    public void 
+    public void Triangle_CanInputThreeSides_True()
+    {
+      Triangle testTriangle = new Triangle(3, 4, 5);
+      Assert.AreEqual(true, Triangle.SideOne == 3);
+    }
   }
 }
