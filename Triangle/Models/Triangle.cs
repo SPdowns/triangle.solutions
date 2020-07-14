@@ -39,5 +39,10 @@ namespace Triangle
       }
       return false;
     }
+
+    public void TriangleType()
+    {
+
+    }
   }
 }

@@ -16,7 +16,7 @@ _This application will take in the lengths of three sides, and then determine wh
 | Program determines if the three sides make a valid triangle | Triangle(2, 2, 8).IsValid() | "false" |
 | If triangle is valid, program determines if the sides make an equilateral triangle | Triangle(3, 3, 3).IsEqualateral() | "true" |
 | If triangle is valid, program determines if the sides make an isosceles triangle | Triangle(3, 3, 5).IsIsosceles() | "true" |
-| If triangle if valid, program determines if the sides make a scalene triangle | Triangle(2, 3, 4).IsScalene() | "true" |
+| Triangle has TriangleType method that centralizes above methods | Triangle(3, 4, 5).TriangleType() | "scalene" |
 | Program outputs results to the console | "3, 4, 5" | "Triangle is scalene" |
 
 ## Setup/Installation Requirements
