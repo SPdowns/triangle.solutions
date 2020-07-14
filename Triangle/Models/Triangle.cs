@@ -21,5 +21,10 @@ namespace Triangle
       }
       return true;
     }
+
+    public void IsEquilateral()
+    {
+      
+    }
   }
 }
