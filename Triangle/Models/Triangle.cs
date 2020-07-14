@@ -42,7 +42,15 @@ namespace Triangle
 
     public string TriangleType()
     {
-      return "invalid";
+      if (IsValid() == false)
+      {
+        return "invalid";
+      }
+      if (IsEquilateral())
+      {
+        return "equilateral";
+      }
+      return "bla bla";
     }
   }
 }
