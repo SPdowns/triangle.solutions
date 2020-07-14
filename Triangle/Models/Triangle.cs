@@ -30,5 +30,10 @@ namespace Triangle
       }
       return false;
     }
+
+    public void IsIsosceles()
+    {
+
+    }
   }
 }
