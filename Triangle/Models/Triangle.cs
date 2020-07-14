@@ -50,6 +50,9 @@ namespace Triangle
       {
         return "equilateral";
       }
+      if (IsIsosceles()) {
+        return "isosceles";
+      }
       return "bla bla";
     }
   }
