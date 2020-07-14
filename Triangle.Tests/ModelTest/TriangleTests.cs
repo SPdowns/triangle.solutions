@@ -12,5 +12,12 @@ namespace Triangle.Tests
       Triangle testTriangle = new Triangle(3, 4, 5);
       Assert.AreEqual(true, testTriangle.SideOne == 3);
     }
+
+    [TestMethod]
+    public void IsValid_CheckIfTriangleIsValid_True()
+    {
+      Triangle testTriangle = new Triangle(3, 4, 5);
+      Assert.AreEqual(true, testTriangle.IsValid());
+    }
   }
 }
